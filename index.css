@@ -1,0 +1,109 @@
+
+form input[type=text]{
+  width: 30px;
+  padding: 5px 8px;
+  border-radius: 20px;
+  border: solid #ffecdb;
+  background-color:whitesmoke;
+  color:#3a539b;
+  font-size: 16px;
+}
+
+form input[type=text].price{
+  width: 50px;
+}
+
+
+.all{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+
+.row {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #C1CEFE;
+  border:solid #ffecdb;
+  padding: 10px 16px;
+  border-radius: 20px;
+}
+
+
+.column{
+  display:flex;
+  flex-direction: column;
+}
+
+.box1{
+background-color: #C1CEFE;
+margin-bottom: 10px;
+border: 3px solid #ffecdb;
+padding: 10px 16px;
+border-radius: 20px;
+}
+
+.box2{
+  background-color:#C1CEFE;
+  margin-top:10px;
+  border: 3px solid #ffecdb;
+  padding: 10px 16px;
+  border-radius: 20px;
+}
+
+.bot{
+  display: flex;
+  justify-content: flex-end;
+}
+
+body {
+  background-color:#73648A ;
+}
+
+h2, h3, label{
+  color:#3a539b;
+  text-align: center;
+}
+
+h2{
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+}
+header h1{
+  color:#ffecdb;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: solid whitesmoke;
+  background-color: #3B0D11;
+  color:whitesmoke;
+  font-family: 'Markazi Text', serif;
+  font-size: 12px;
+  margin: 10px;
+}
+button:hover{background-color:black}
+
+@media all and (min-width: 600px){
+
+  h2{
+    font-size: 28px;
+  }
+  
+  h3, label {
+    font-size: 24px;
+  }
+  button{
+    font-size:24px;
+  }
+
+}
