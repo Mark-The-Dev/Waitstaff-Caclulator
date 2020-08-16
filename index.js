@@ -65,6 +65,15 @@ function addHtml() {
 // console.log(`---HERE---${tipPercent}`
 
 
+let cancel = $('main').on('click', '.cancel', function (event){
+  event.preventDefault();
+  $('#meal-price').val('');
+  $('#tax-rate').val('');
+  $('#tip-percent').val('');
+  render();
+});
+
+
 
 
 //let calculatePrice = 
